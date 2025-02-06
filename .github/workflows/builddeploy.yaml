@@ -20,7 +20,7 @@ jobs:
       - name: pnpm install
         run: pnpm i
       - name: pnpm run dev
-        run: pnpm run dev
+        run: pnpm run deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
